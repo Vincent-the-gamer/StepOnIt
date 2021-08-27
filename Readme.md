@@ -6,5 +6,7 @@
 
 有关该“游戏”（我不知道这是否能够称得上一款游戏）的发布之后会在B站发一期视频。
 
+下载/Download：[下载链接/Download Link](https://github.com/Vincent-the-gamer/StepOnIt/releases/tag/v0.1-demo)
+
 Bilibili: 诡锋神秘人士  2021.8.27
 
