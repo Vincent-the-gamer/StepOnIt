@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{551BD817-C1BC-14A6-7FBB-BB37189F8AE3}|">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Step On It" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GameAssets" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="Global" expanded="True">
+                  <Node name="PauseButtonClick.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c8ec0df9-fea3-4101-a7d6-6f6e39898356" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
