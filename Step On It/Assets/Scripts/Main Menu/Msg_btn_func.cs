@@ -9,7 +9,7 @@ public class Msg_btn_func : MonoBehaviour
     
     public void MouseEnter()
     {
-        //重设按钮图片尺寸
+        //Reset button picture size
         RectTransform rt = gameObject.GetComponent<RectTransform>();
         rt.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 145);
         rt.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 85);

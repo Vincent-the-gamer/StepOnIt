@@ -1,25 +1,21 @@
-﻿<Properties StartupConfiguration="{551BD817-C1BC-14A6-7FBB-BB37189F8AE3}|">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{F32EDB49-2DA5-332A-CAAD-261540467B1B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterController/Player.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CharacterController/MyCharacterController2D.cs" Line="23" Column="23" />
+      <File FileName="Assets/Scripts/CharacterController/Player.cs" Line="42" Column="58" />
+      <File FileName="Assets/Scripts/Level1/Enemies.cs" Line="98" Column="6" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Step On It" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="GameAssets" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="Global" expanded="True">
-                  <Node name="PauseButtonClick.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="Step On It" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c8ec0df9-fea3-4101-a7d6-6f6e39898356" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1d62f355-c0f7-4519-b1d3-531bad6a9042" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

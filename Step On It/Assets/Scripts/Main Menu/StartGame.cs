@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour
 {
-    //点击Start开始游戏
+    //Bind this on the click event
     public void ClickStart()
     {
-      //异步加载第一关
       SceneManager.LoadScene("Level1");
     }
 }

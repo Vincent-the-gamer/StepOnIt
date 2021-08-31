@@ -11,10 +11,10 @@ public class MouseHoverButton : MonoBehaviour
     private void Start()
     {
         transform.GetChild(0).GetComponent<Text>().color = Color.black;
-        //创建事件触发器
+        //Create Event Trigger
         EventTrigger eventTri = this.gameObject.AddComponent<EventTrigger>();
 
-        //加入鼠标进入事件
+        //Add Mouse Enter Event
         EventTrigger.Entry entryPointerEnter = new EventTrigger.Entry();
         entryPointerEnter.eventID = EventTriggerType.PointerEnter;
         entryPointerEnter.callback = new EventTrigger.TriggerEvent();
@@ -22,7 +22,7 @@ public class MouseHoverButton : MonoBehaviour
         entryPointerEnter.callback.AddListener(pointerEnter);
         eventTri.triggers.Add(entryPointerEnter);
 
-        //加入鼠标离开事件
+        //Add Mouse Exit Event
         EventTrigger.Entry entryPointerExit = new EventTrigger.Entry();
         entryPointerExit.eventID = EventTriggerType.PointerExit;
         entryPointerExit.callback = new EventTrigger.TriggerEvent();
@@ -34,13 +34,13 @@ public class MouseHoverButton : MonoBehaviour
 
     void OnPointerEnterTarget(BaseEventData baseEventData)
     {
-        //鼠标进入时实现的功能
+        //Function while mouse enter
         transform.GetChild(0).GetComponent<Text>().color = Color.blue;
     }
 
     void OnPointerExitTarget(BaseEventData baseEventData)
     {
-        //鼠标离开时实现的功能
+        //Function while mouse exit
         transform.GetChild(0).GetComponent<Text>().color = Color.black;
     }
 
